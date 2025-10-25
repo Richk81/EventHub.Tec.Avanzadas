@@ -87,13 +87,13 @@ La arquitectura sigue el patrón **MVC/Arquitectura por Capas**:
 **Propósito:** Registro de servicios, repositorios, middleware, autenticación y Swagger.  
 
 **Implementación:**
-- Registro de servicios y repositorios en DI:  
-```csharp
+- Registro de servicios y repositorios en DI:
 builder.Services.AddScoped<IEventosService, EventosService>();
 builder.Services.AddScoped<IAsistenteService, AsistentesService>();
 builder.Services.AddScoped<IComentarioService, ComentariosService>();
 
-----
+
+---
 
 ### 7. Buenas prácticas generales
 
@@ -140,7 +140,7 @@ Abrir en el navegador: https://localhost:{PUERTO}/swagger
 
 Ver y probar todos los endpoints con documentación generada.
 
-----
+---
 
 ### 8. Cómo iniciar y probar la API:
 
@@ -199,7 +199,7 @@ En el campo que aparece, escribe: Bearer <TU_TOKEN>
 
 - D) Si el token expiró o no lo agregaste correctamente, Swagger mostrará un error 401 Unauthorized.
 
-----
+---
 
 ### 9. AUTOR:
 
