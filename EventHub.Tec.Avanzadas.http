@@ -1,0 +1,6 @@
+@EventHub.Tec.Avanzadas_HostAddress = http://localhost:5168
+
+GET {{EventHub.Tec.Avanzadas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
